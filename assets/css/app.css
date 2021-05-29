@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-page{
+    position: relative;
+    top:0;
+    background-image: url('../images/background.jpg');
+    height: 100vh;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signup-page{
+    position: relative;
+    top:0;
+    background-image: url('../images/signupback.jpg');
+    height: auto;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-page{
+    position: relative;
+    top:0;
+    background-image: url('../images/home_moon.webp');
+    height: 100vh;
+    background-position: center;
+  background-repeat:repeat-y;
+  background-size: cover;
+
+}
+.gallery-page{
+    position: relative;
+    top:0;
+    background-image: url('../images/bg.jpg');
+    height: 100vh;
+    background-position: center;
+  background-repeat:repeat-y;
+  background-size: cover;
+}
+.navbar{
+    background-color:transparent;
+    color: white;
+    /* height: 70px; */
+    /* display: block; */
+   
+}
+.navbar-image{
+    height: 70px;
+    width: 100px;
+}
+a{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Potta One', cursive;
+}
+.nav-back{
+    background-color: #000000;
+}
+.sign-nav-back{
+    background-color: transparent;
+    border: none;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.home-potrait
+{
+    width: 500px;
+    height: 400px;
+}
+.form-div{
+    /* width: 50%;
+    height: 50%;
+    background-color: #000000; */
+    box-shadow:         inset 0 0 10px #000000;
+    
+    border-radius: 10px;
+}
+.rotate {
+    animation: rotation 2s;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+
+  .login-form{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+  }
+  .login1{
+      margin-top: 71px 0;
+  }
+  .potrait-about{
+      height: 300px;
+      width: 400px;
+  }
+ .globel{
+    height: 300px;
+    width: 363px;
+ }
+ .potrait{
+    height: 306px;
+    width: 397px;
+ }
